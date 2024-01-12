@@ -33,7 +33,7 @@ public class DesafioApplication {
 
 		System.out.println("\nSAÍDA");
 		System.out.println("Pedido código " + order.getCode());
-		System.out.println("Valor total: " + total);
+		System.out.printf("Valor total: R$ %.2f", total);
 	}
 
 }
